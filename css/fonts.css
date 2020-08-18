@@ -9,7 +9,7 @@
 /* Roboto Light */
 @font-face {
 	font-family: 'Roboto';
-	src: url('..fonts/roboto/Roboto Light/fonts/roboto_light.woff2') format('woff2'), /* Super Modern Browsers */
+	src: url('../fonts/roboto/Roboto Light/fonts/roboto_light.woff2') format('woff2'), /* Super Modern Browsers */
 		url('../fonts/roboto/Roboto Light/fonts/roboto_light.woff') format('woff'); /* Firefox >= 3.6, any other modern browser */
 		font-weight: 300;
 		
