@@ -399,10 +399,13 @@
                     <span class="form-name">Комментарий</span>
                     <textarea name="user-message" placeholder="Оставьте комментарий" id="form-comment" class="form__comment"></textarea>
                 </label>
-                <label for="form-checkbox" class="form-label form__checkbox">
-                    <input type="checkbox" name="user-checkbox" id="form-checkbox" value="Соглашаюсь с рассылкой и принимаю Условия договора" required class="form__checkbox">
-                    Соглашаюсь с рассылкой и принимаю <a href="#" target="_blanck">Условия договора</a>
-                </label>
+                <div>
+                    <input type="checkbox" name="user-checkbox" id="form__checkbox"  class="form-checkbox-input" value="Соглашаюсь с рассылкой и принимаю Условия договора" required>
+                    <label for="form__checkbox" class="form-label form-checkbox-label">
+                        Соглашаюсь с рассылкой и принимаю <a href="#" target="_blanck">Условия договора</a>
+                    </label>
+                </div>
+              
                 <button type="submit" class="btn btn-send">Отправить</button>
             </div>
         </form>
